@@ -1,0 +1,212 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.container {
+	width: 100%;
+	background-color: #f0f0f0;
+	padding: 20px 0;
+}
+
+article.card {
+	width: 600px;
+	margin: 20px;
+	margin-bottom: 60px;
+	background: #ffffff;
+	border: 1px solid #c0c0c0;
+	border-radius: 3px;
+}
+
+/* 헤더 */
+
+article.card header {
+	height: 40px;
+	padding: 10px;
+}
+
+article.card header > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.profile-image {
+	height: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.profile-image > img {
+	height: 100%;
+	border-radius: 50%;
+}
+
+.profile-name {
+	font-weight: 900;
+	font-size: 13px;
+	line-height: 20px;
+	margin-left: 5px;
+}
+
+.more-options {
+	float: right;
+	padding: 5px;
+}
+
+.transparent-button {
+	background-color: transparent;
+	border: 0;
+	outline: 0;
+	cursor:pointer;
+
+}
+
+/* 메인 */
+/* 카루셀 */
+
+.carousel {
+	position: relative;
+	width: 100%;
+}
+
+.carousel > div {
+	overflow-x: hidden;
+}
+
+.carousel > div > ul {
+	width: 10000px;
+}
+
+.carousel > div > ul > li {
+	display: inline-block;
+	width: 600px;
+}
+
+.carousel > div > ul > li > img {
+	width: 100%;
+}
+
+.slide {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 10px;
+}
+
+.slide-right {
+	right: 0px;
+}
+
+.slide img {
+	opacity: 0.75;
+}
+
+.carousel footer {
+	position: absolute;
+	height: 20px;
+	text-align: center;
+	width: 100%;
+	bottom: -20px;
+}
+
+.carousel footer div {
+	width: 6px;
+	height: 6px;
+	background-color: #a8a8a8;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.carousel footer div.active {
+	background-color: #0095f6;
+}
+
+
+/* 카드 */
+
+.card-container {
+	padding: 5px 10px;
+}
+
+.card-buttons {
+	padding: 0 5px;
+	margin-top: 5px;
+}
+
+.card-buttons > div {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.card-buttons > div.bookmark-button {
+	float: right;
+	margin-right: 0;
+}
+
+.card-likes {
+	font-weight: 900;
+	font-size: 13px;
+	padding: 5px;
+}
+
+.card-contents {
+	padding: 2px 5px;
+	font-size: 13px;
+}
+
+.card-contents li > div {
+	padding: 1px 0;
+}
+
+.card-contents li > div > span {
+	font-weight: 900;
+}
+
+.card-contents li > div > button {
+	float: right;
+}
+
+.card-contents li > div > button > img {
+	width: 12px;
+	margin-right: 5px;
+}
+
+.card-time {
+	padding: 3px;
+	font-size: 11px;
+	color: #a0a0a0;
+}
+
+/* 푸터 */
+
+footer.card-comment {
+	position: relative;
+	height: 55px;
+	border-top: 1px solid #e0e0e0;
+}
+
+footer.card-comment > input {
+	height: 100%;
+	weight: 100%;
+	border: 0;
+	outline: 0;
+	padding: 0 15px;
+	color: #606060;
+}
+
+footer.card-comment > div {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+footer.card-comment >div > button {
+	color: #0095f6;
+	opacity: 0.5;
+	padding: 10px 5px;
+}
