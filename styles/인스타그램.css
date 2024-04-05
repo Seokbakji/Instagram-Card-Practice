@@ -15,7 +15,7 @@ ul, li {
 
 article.card {
 	width: 600px;
-	margin: 20px;
+	margin: 20px auto;
 	margin-bottom: 60px;
 	background: #ffffff;
 	border: 1px solid #c0c0c0;
@@ -77,9 +77,6 @@ article.card header > div {
 	overflow-x: hidden;
 }
 
-.carousel > div > ul {
-	width: 10000px;
-}
 
 .carousel > div > ul > li {
 	display: inline-block;
